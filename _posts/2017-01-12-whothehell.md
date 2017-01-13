@@ -4,6 +4,7 @@ title:  "Who Am I?"
 date:   2017-01-12 00:21:17
 categories: self
 comments: true
+tags: about me
 ---
 
 I'm learning to talk to computers. That's life right now. I really like it quite a lot, and though I'm far from good at it, it feels satisfying. In the Fall of 2017, I'll be attending <a href= "http://www.turing.io"> The Turing School. </a> In the meantime, I'll probably write some lengthy (and likely patently absurd) blog posts about my thoughts on the philosophy of this kind of activity as I see it. I just have to work up the hubris to convince myself I understand anything well enough to talk about it.
