@@ -3,6 +3,7 @@ title:  "Why I Chose Turing"
 date:   2017-01-04 00:17:11
 categories:  education
 comments:  true
+tags: Turing, bootcamps, code schools
 ---
 
 I'd been thinking about the whole code "boot camp" idea for a while. I don't really care for the label of boot camp, because I went to real boot camp, and this is not that (I'm fairly sure). At any rate, <a href="https://www.turing.io/"> Turing </a> kind of eschews the boot camp label anyway. For those of you who don't know, Turing is an intensive 7 month program that aims to take you from square one to hirable as a junior dev in that time period. That's a lofty goal, and as such it is a rigorous program.
