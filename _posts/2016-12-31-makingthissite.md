@@ -3,6 +3,7 @@ layout: post
 title:  "About this site"
 date:   2016-12-31 00:10:45
 categories:  tech
+comments: true
 ---
 
 This site is my first attempt at building something for the internet that didn't come out of a point and click website builder. Not that there's anything wrong with those things, they're just fine if wading through the weeds of website creation isn't your preferred method of time wasting.
