@@ -5,7 +5,7 @@ description: "I'm learning Ruby/Rails. I'm also learning html, CSS, and some js 
 
 url: 'http://mrpants.io'
 baseurl: '/'
-# google_analytics: 'UA-XXXXXX-X'
+google_analytics: 'UA-89828330-1'
 disqus_shortname: 'mrpants'
 
 author:
