@@ -1,18 +1,18 @@
 # Site settings
-title: Jekyll-Uno
-description: 'Jekyll-Uno - a minimal, responsive theme for Jekyll'
-url: 'http://joshgerdes.com/jekyll-uno'
-baseurl: '/jekyll-uno/'
+
+title: Things I Feel Like Talking About
+description: "I'm learning Ruby/Rails. I'm also learning html, CSS, and some js for good measure. In the Fall of 2017, I'll be attending The Turing School to get some formal training in what the hell I'm doing, but till then, I'm shooting in the dark. This site is my first attempt at making something from scratch, and will be changing frequently as I learn new things."
+
+url: 'http://mrpants.io'
+baseurl: '/'
 # google_analytics: 'UA-XXXXXX-X'
-# disqus_shortname: 'your-disqus-name'
+disqus_shortname: 'mrpants'
 
 author:
-  name: 'Josh Gerdes'
-  email: josh@joshgerdes.com
-  twitter_username: joshgerdes
-  facebook_username: joshgerdes
-  github_username:  joshgerdes
-  linkedin_username:  joshgerdes
+  name: 'Aram Anderson'
+  email: aram.j.anderson@gmail.com
+  twitter_username: aram987
+  github_username:  mr-pants
 
 defaults:
   -
