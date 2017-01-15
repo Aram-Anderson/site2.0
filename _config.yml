@@ -1,12 +1,12 @@
 # Site settings
 
 title: Things I Feel Like Talking About
-description: "I'm learning Ruby/Rails. I'm also learning html, CSS, and some js for good measure. In the Fall of 2017, I'll be attending The Turing School to get some formal training in what the hell I'm doing, but till then, I'm shooting in the dark. This site is my first attempt at making something from scratch, and will be changing frequently as I learn new things."
+description: "I'm learning Ruby/Rails. I'm also learning html, CSS, and some js, plus anything else that catches my eye in the process. In the Fall of 2017, I'll be attending The Turing School to get some formal training in what the hell I'm doing, but till then, I'm shooting in the dark. This site is my first attempt at making something that wasn't from a point and click site generator, and it will be changing frequently as I learn new things. It's a Jekyll site now, but the goal is to rebuild it in Rails at some point."
 
 url: 'http://mrpants.io'
 baseurl: '/'
-# google_analytics: 'UA-XXXXXX-X'
-disqus_shortname: 'mrpants'
+google_analytics: 'UA-89828330-1'
+disqus_shortname: 'mrpants-io-4'
 
 author:
   name: 'Aram Anderson'
