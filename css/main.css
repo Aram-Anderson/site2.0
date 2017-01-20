@@ -13,8 +13,9 @@ pre.highlight code,
   white-space: pre-wrap;
 }
 
-.btn, 
+.btn,
 .navigation__item a {
+  color: rgba(119,136,153, 0.8)
   margin: 5px 0;
   white-space: nowrap;
 }
