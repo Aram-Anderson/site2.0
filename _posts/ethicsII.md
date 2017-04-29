@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "What Are Our Principles?"
+date:   2017-04-28 00:16:45
+categories:  coding, ethics
+comments: true
+tags: ethics
+---
+
+I wrote a post the other day about ethics. I don't feel like it really said much, but was just a little snippet of something ill formed and bouncing around in my head. I can't promise this one will be any better, but maybe.
+
+I'm an aspiring developer. I am moving as concretely as I see possible to move that "aspiring" bit to the trash bin, and make a career of this. As such, I feel a little awkward writing about cultural norms within a culture I cannot even rightly claim to be part of at the moment. However, I think the topic of ethics travels with me wherever I go, and it is inevitable that it be part of my luggage on any life transition.
+
+This particular bug in my mind was planted when reading an article on the <a href='https://en.wikipedia.org/wiki/The_World%27s_Billionaires#2017'> 10 wealthiest people in the world</a>(not the specific article here, just a reference for who they are). What struck me is fully half of that list are people who made their money in tech. Of course that's fairly obvious, and to be expected in the world of today, but it's still striking. In a vacuum, maybe that doesn't matter, and we could just write it off as an interesting but useless bit of knowledge, but we don't live in a vacuum. These are the people shaping society today.
+
+Tech money is different in many respects to the fortunes of days past. When we had railroad barons and steel magnates, they simply made a product. Often, it wasn't something you put a lot of thought into, and it didn't include culture (that's debatable, and it probably did to some degree, but nothing like now). Zuckerberg is in the business of literally in the business of shaping culture, and that's new. Facebook touches every corner of modern society, on almost every corner of the globe. Think about the power that comes with that.
+
+My aim here is not to come down on one side or the other of the objective good or bad of Facebook or any other tech. Just to point out that there is a power vested in those technologies that touches society in a way that has never existed before. It's subtle, and it's new.
+
+We are part of that power structure, whether we want to be or not. The reach of tech is just so massive that it's inevitable. If we are fortunate enough to end up working somewhere that really takes off, we will have a hand in shaping culture. And not just the insular dev culture, but the wider culture of the world.
+
+I think that we need to be talking about that. I think we need to have this kind of broad umbrella conversation about the ethical structure of our influence and what that means, where it fits, and what positive and negative values should exist in that space. As I said in my last post, I don't have any idea what the content of that discussion ought to be, but I strongly feel it's a discussion worth having. 
