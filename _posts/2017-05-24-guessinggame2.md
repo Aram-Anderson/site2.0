@@ -54,4 +54,4 @@ end
 
 puts "You guessed the right number, You won!!!"
 ```
-So now we have a game that gives the user some feedback that depends on what they put in. That's a little cooler, right? Next post we'll give it a math based hint.
+So now we have a game that gives the user some feedback that depends on what they put in. That's a little cooler, right? Next post we'll give it a math based hint. <a href="https://mrpants.io/2017/guessinggame3/">Check it out here</a>.
