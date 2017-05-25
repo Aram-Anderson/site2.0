@@ -6,7 +6,7 @@ categories:  tech
 comments: true
 ---
 
-<a href="_posts/2017-05-24-guessinggame1.md">So last time</a> we ended up with a really simple <code>while</code> loop based guessing game. It looks like this:
+<a href="https://mrpants.io/2017/guessinggame1/">So last time</a> we ended up with a really simple <code>while</code> loop based guessing game. It looks like this:
 ```ruby
 secret_number = rand(1..100)
 puts "I have generated a random number for you to guess, what is your guess?"
