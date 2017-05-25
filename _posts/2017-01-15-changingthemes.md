@@ -4,7 +4,6 @@ title:  "Changing Themes in Jekyll"
 date:   2017-01-15 00:14:45
 categories:  tech
 comments: true
-tags: static sites, blogs, Jekyll
 ---
 
 After my site had been up for a brief period, I decided that I wanted to change the theme I was using. I was worried that would be a lot of work, but it really wasn't.

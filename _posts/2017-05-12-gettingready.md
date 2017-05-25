@@ -4,7 +4,6 @@ title:  "Just Over a Month Till Go Time"
 date:   2017-05-12 00:7:45
 categories:  School, Turing
 comments: true
-tags: school, turing, tecp
 ---
 
 Shit is getting real. I have just over a month before I start Turing, and I'm feeling like it's actually happening. Up to now, this has all seemed a little fuzzy in my brain. It's something I knew was going to happen, but it didn't feel solid. There was a buffer between now and then which seemed like it would go on forever.

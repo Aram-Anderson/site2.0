@@ -4,7 +4,6 @@ title:  "Tutorial For Making a Simple Ruby Number Guessing Game Part 1"
 date:   2017-05-24 00:10:45
 categories:  tech
 comments: true
-tags: ruby, Turing, command line, game, pt 1, beginners, Tutorials
 ---
 
 As part of the gear up for Turing, they send out a prework package. It's basically just a set of exercises and resources that cover the basics of ruby, as well as general logical thinking, and some materials on how to be successful in the program, and as a dev afterword. It's good stuff, and I've been spending a lot of time with my nose deep in the material.
@@ -63,6 +62,6 @@ while secret_number != user_number = gets.chomp.to_i
   puts "That's not the number. Try again: "
 end
 
-puts "You guess the right number, You won!!!"
+puts "You guessed the right number, You won!!!"
 ```
 That is certainly not a very exciting game, but it works, and it's a functioning while loop, so that's something. The next post will be adding some features to this game, and making a little more interesting.

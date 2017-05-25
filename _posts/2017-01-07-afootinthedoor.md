@@ -4,7 +4,6 @@ title:  "A Foot in the Door"
 date:   2017-01-07 00:08:45
 categories:  education
 comments: true
-tags: starting out, experts, helping noobs
 ---
 
 I have no background in programming. None. Zero. The closest thing I'd done previously was creating a site using <a href="https://www.squarespace.com/">Squarespace.</a> Squarespace is a great solution for anyone who isn't inclined to spend hours tinkering with a header that just won't go where you want it to. It does a whole lot of the heavy lifting for you, and it's good at what it does.
