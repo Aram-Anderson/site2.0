@@ -4,7 +4,7 @@ title:  "Tutorial For Making a Simple Ruby Number Guessing Game Part 2"
 date:   2017-05-24 00:10:45
 categories:  tech
 comments: true
-tags: ruby, Turing, command line, game, pt 1, beginners, Tutorials
+tags: ruby, Turing, command line, game, pt 2, beginners, Tutorials
 ---
 
 So last time we ended up with a really simple <code>while</code> loop based guessing game. It looks like this:
@@ -41,7 +41,7 @@ puts "You guessed the right number, You won!!!"
 ```
 The first part of the `if` just says: "is the user number more than the secret number? If so, do this." The `else` says: "if that first part isn't true, do this." Since the number is either greater or less, that's all we need. The other thing I jammed in there is string interpolation. That's that part that looks like `#{stuff}`. That's just a way to inject some ruby code into a string without leaving the string. It just says: "whatever is inside those curly braces, evaluate that as code, and add the result to that part of the string." So it just jams whatever is stored in the `user_number` variable into that spot.
 
-There is a more condensed way to do the very same thing. I'll just put the code here, I bet you can figure out how it works. Just think about how the `if` above works, and know there is a comparable part to everything in that one. 
+There is a more condensed way to do the very same thing. I'll just put the code here, I bet you can figure out how it works. Just think about how the `if` above works, and know there is a comparable part to everything in that one.
 ```ruby
 secret_number = rand(1..100)
 puts "I have generated a random number for you to guess, what is your guess?"
