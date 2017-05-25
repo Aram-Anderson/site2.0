@@ -33,14 +33,14 @@ secret_number = rand(1..100)
 puts "I have generated a random number for you to guess, what is your guess?"
 
 while secret_number != user_number = gets.chomp.to_i
-  divisor = rand(1..10)
+  divisor = rand(2..10)
   puts "That's not the number. #{user_number} is #{user_number > secret_number
   ? 'greater' : 'less'} than the secret number. Try again: "
 end
 
 puts "You guessed the right number, You won!!!"
 ```
-So now we have a new `divisor` variable, but that doesn't give us much. We'll go ahead and structure what we do with it as an `if` conditional. Don't forget the `end` after the `if-else`.
+So now we have a new `divisor` variable, but that doesn't give us much. I started the random range at 2, because dividing by 1 doesn't tell the user much. We'll go ahead and structure what we do with it as an `if` conditional. Don't forget the `end` after the `if-else`.
 ```ruby
 secret_number = rand(1..100)
 puts "I have generated a random number for you to guess, what is your guess?"
