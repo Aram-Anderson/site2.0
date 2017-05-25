@@ -4,6 +4,7 @@ title:  "Tutorial For Making a Simple Ruby Number Guessing Game Part 2"
 date:   2017-05-24 00:10:45
 categories:  tech
 comments: true
+tags: Turing, pt2, while_loops, beginner, game
 ---
 
 So last time we ended up with a really simple <code>while</code> loop based guessing game. It looks like this:
