@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Tutorial For Making a Simple Ruby Number Guessing Game"
+title:  "Tutorial For Making a Simple Ruby Number Guessing Game Part 1"
 date:   2017-05-24 00:10:45
 categories:  tech
 comments: true
@@ -46,7 +46,7 @@ while secret_number != user_number = gets.chomp.to_i
   puts "That's not the number. Try again: "
 end
 ```
-We are asking for the user input and assigning to the variable, and making the comparison to the other variable at the same time. We have to do it all at once because that will allow the user to type something different each time the loop repeats, and check for parity again. What that loop will do is take input from the user, assign it to the variable <code>user_number</code>, and compare that to <code>secret_number</code>. The != boolean operator will return true if the compared variables are not the same, and trigger the internal <code>puts</code> within the loop. The loop then bounces back to the top and starts over with some new user input. The <code>.chomp</code> bit removes the carriage return that would otherwise there from the user pressing enter after they input their response. Again, probably don't need to worry about the mechanics, but I like to know how stuff works. The <code>to_i</code> part takes the user input and turns it into an integer. <code>gets</code> takes in a string by default, and that won't be very helpful if we're comparing that to an integer. <code>to_i</code> solves that.
+We are asking for the user input and assigning to the variable, and making the comparison to the other variable at the same time. We have to do it all at once because that will allow the user to type something different each time the loop repeats, and check for parity again. What that loop will do is take input from the user, assign it to the variable <code>user_number</code>, and compare that to <code>secret_number</code>. The != boolean operator will return true if the compared variables are not the same, and trigger the internal <code>puts</code> within the loop. The loop then bounces back to the top and starts over with some new user input. The <code>.chomp</code> bit removes the carriage return that would otherwise there from the user pressing enter after they input their response. Again, probably don't need to worry about the meachanics, but I like to know how stuff works. The <code>to_i</code> part takes the user input and turns it into an integer. <code>gets</code> takes in a string by default, and that won't be very helpful if we're comparing that to an integer. <code>to_i</code> solves that.
 
 All that's left is to is create the message that will be displayed if <code>!=</code> returns false. If false (meaning the variables match) is the result, the loop goes to the <code>end</code> below the <code>puts</code>. That breaks the loop, and the program moves to whatever code is after the loop. In this case, that means the <code>user_number</code> and <code>secret_number</code> match, and the user won.
 ```ruby
