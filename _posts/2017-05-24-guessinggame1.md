@@ -64,4 +64,4 @@ end
 
 puts "You guessed the right number, You won!!!"
 ```
-That is certainly not a very exciting game, but it works, and it's a functioning while loop, so that's something. The next post will be adding some features to this game, and making a little more interesting.
+That is certainly not a very exciting game, but it works, and it's a functioning while loop, so that's something. The next post will be adding some features to this game, and making a little more interesting. See <a href="https://mrpants.io/2017/guessinggame2/"> part 2 here</a>.
