@@ -17,8 +17,7 @@ loop do
       puts "The number is #{user_number.to_i > number ? 'less' : 'greater'} than #{user_number}.\nThe number is divisable by #{divisor}!\nYou have #{counter} guesses left.\nTry again: "
     else
       puts "The number is #{user_number.to_i > number ? 'less' : 'greater'} than #{user_number}.\nThe number is NOT divisable by #{divisor}!\nYou have #{counter} guesses left.\nTry again: "
-end
-  break if user_number.to_i == number
+    end
 end
 
 if counter > 0
