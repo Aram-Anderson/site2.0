@@ -5,7 +5,7 @@ date:   2017-06-05 00:20:45
 categories:  tech
 comments: true
 ---
-At the end of the < href="https://mrpants.io/2017/guessinggame3/"> last post</a> here's what was going on:
+At the end of the <a href="https://mrpants.io/2017/guessinggame3/"> last post</a> here's what was going on:
 ```ruby
 secret_number = rand(1..100)
 puts "I have generated a random number for you to guess, what is your guess?"
@@ -150,4 +150,4 @@ end
   end
 ```
 
-As I said at the outset of this post, I only vaguely know what I'm doing. I'd be happy to hear from anyone who has ideas to improve on what I was trying to do here. If there's a better path to get to the same functionality, I'm all ears. Feel free to comment with your thoughts. 
+As I said at the outset of this post, I only vaguely know what I'm doing. I'd be happy to hear from anyone who has ideas to improve on what I was trying to do here. If there's a better path to get to the same functionality, I'm all ears. Feel free to comment with your thoughts.
