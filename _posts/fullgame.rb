@@ -21,7 +21,7 @@ loop do
 end
 
 if counter > 0
-  puts "The number is #{number}! You won!!!"
+  puts "You guessed the right number, it was #{secret_number}! You won!!!"
 else
   puts "You lose! Better luck next time."
 end

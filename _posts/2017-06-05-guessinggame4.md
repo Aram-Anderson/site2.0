@@ -119,35 +119,55 @@ end
   end
   ```
 
-  That's pretty much it for this one. The program as a whole looks like so:
+  The only other thing left to do is add a different print statement that will be triggered if the user runs out of guesses. We can implement that as an if statement after the loop.
+  where it used to be:
+
   ```ruby
-  number = rand(1..100)
-  puts "I have generated a random number for you to guess, what is your guess?"
-  counter = 10
 
-  loop do
-    break if counter == 0
-    divisor = rand(2..10)
-    user_number = gets.chomp
-        break if user_number.to_i == number
-    counter -= 1
-    if counter < 6
-      puts "If you want to cheat, type 'I'm a big cheater'"
-    end
-      if user_number.to_s.downcase.eql? "i'm a big cheater"
-        puts "The secret number is #{number}. Go ahead and type it in, cheater: "
-      elsif number % divisor == 0
-        puts "The number is #{user_number.to_i > number ? 'less' : 'greater'} than #{user_number}.\nThe number is divisable by #{divisor}!\nYou have #{counter} guesses left.\nTry again: "
-      else
-        puts "The number is #{user_number.to_i > number ? 'less' : 'greater'} than #{user_number}.\nThe number is NOT divisable by #{divisor}!\nYou have #{counter} guesses left.\nTry again: "
-      end
+  #loop
+end
+  puts "You guessed the right number, it was #{secret_number}! You won!!!"
+```
+We change that to:
+
+```ruby
+#loop
+end
+if counter > 0
+  puts "You guessed the right number, it was #{secret_number}! You won!!!"
+else
+  puts "You lose! Better luck next time."
+end
+```
+That's pretty much it for this one. The program as a whole looks like so:
+```ruby
+number = rand(1..100)
+puts "I have generated a random number for you to guess, what is your guess?"
+counter = 10
+
+loop do
+  break if counter == 0
+  divisor = rand(2..10)
+  user_number = gets.chomp
+      break if user_number.to_i == number
+  counter -= 1
+  if counter < 6
+    puts "If you want to cheat, type 'I'm a big cheater'"
   end
-
-  if counter > 0
-    puts "The number is #{number}! You won!!!"
+  if user_number.to_s.downcase.eql? "i'm a big cheater"
+    puts "The secret number is #{number}. Go ahead and type it in, cheater: "
+  elsif number % divisor == 0
+    puts "The number is #{user_number.to_i > number ? 'less' : 'greater'} than #{user_number}.\nThe number is divisable by #{divisor}!\nYou have #{counter} guesses left.\nTry again: "
   else
-    puts "You lose! Better luck next time."
+    puts "The number is #{user_number.to_i > number ? 'less' : 'greater'} than #{user_number}.\nThe number is NOT divisable by #{divisor}!\nYou have #{counter} guesses left.\nTry again: "
   end
+end
+
+if counter > 0
+  puts "You guessed the right number, it was #{secret_number}! You won!!!"
+else
+  puts "You lose! Better luck next time."
+end
 ```
 
 As I said at the outset of this post, I only vaguely know what I'm doing. I'd be happy to hear from anyone who has ideas to improve on what I was trying to do here. If there's a better path to get to the same functionality, I'm all ears. Feel free to comment with your thoughts.
