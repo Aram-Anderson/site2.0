@@ -1,4 +1,5 @@
 ---
+layout: post
 title:  "Why I Chose Turing"
 date:   2017-01-04 00:17:11
 categories:  education
